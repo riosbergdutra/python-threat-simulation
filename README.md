@@ -10,6 +10,7 @@ The purpose of this project is strictly educational: to understand how certain t
 
 ## Project Structure
 
+```
 python-threat-simulation/
 │
 ├── README.md
@@ -19,9 +20,8 @@ python-threat-simulation/
 │
 └── ransomware/
     ├── ransomware.py
-    ├── decrypt.py
-
----
+    └── decrypt.py
+```
 
 ## Keylogger Simulation
 
